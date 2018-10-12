@@ -1,0 +1,110 @@
+  PTIMER (v1.00)  20-Aug-2018
+  Pulsar  PSR 1937+21  
+
+--------------------------------------------------------------------------------
+......... ASSUMED Pulsar parameters:
+ ** SPIN PARAMETERS:
+ Alpha(2000) : 19:39:38.5602060s
+ Delta(2000) : 21:34:59.1417863"
+ Alpha-Motion:         -.1321000     mas/yr
+ Delta-Motion:         -.4745000     mas/yr
+ P           : 1.557806468819837E-03 s
+ dP/dt       : 1.051182136895869E-19
+ d2P/dt2     :          -3.25867E-32 s-2
+ MJD(P)      :     47500.0000000    
+ DM          :        71.0403730     pc cm-3
+ Distance    :        1250.46893     pc
+        f0   :   6.4192826260220880D+02 1/s
+        f1dot:      -4.331626144339D-14 1/s2
+        f2dot:       1.343391853862D-26 1/s3
+--------------------------------------------------------------------------------
+ Configuration file               >c:/ptimer/ptimer.cfg                                                            
+ Leap second   file               >c:/ptimer/clock/leap.sec                                                        
+ Observatory data (see _site.dat) >c:/ptimer/obsys.dat                                                             
+ Observatory clock corrections    >c:/ptimer/clock/time.dat                                                        
+      6029 Clock corrections read
+ Free format input data from      >1937.tpo                                                                        
+ TOA data file                    >1937p21.ao                                                                      
+
+ EOP ignored, no data or there is no file EOP.DAT
+ JPL Ephemerides DE200/LE200      >c:/ptimer/tmp/de405.bin                                                         
+ Time ephemerides Fairhead L.& Bretagnon P.1990
+
+--------------------------------------------------------------------------------
+  Time Beg.=19: 2: 3
+
+ :Number of TOAs :   439
+ :First TOA      :12.10.1984(JD= 2445985.5)
+ :Last TOA       :17.12.1992(JD= 2448973.5)
+
+  Median TOA uncertainty      .247 mcs
+
+  Global  11-th order fit of parameters,  428 degrees of freedom.
+  Weighted fit
+
+ --------------------------------------------------------------------------------
+   Matrix of correlations for fitted parameters:
+  1.).Const | 1.000
+  2.).F     |  .049 1.000
+  3.).Fdot  | -.319  .009 1.000
+  4.) F2dot |  .028 -.902 -.068 1.000
+  5.) F3dot |  .263 -.019 -.951  .100 1.000
+  6.).Al    | -.025  .162  .064 -.239 -.040 1.000
+  7.).Dl    | -.117 -.113  .108  .164 -.141 -.239 1.000
+  8.).mAl   | -.033 -.009  .020  .042 -.121 -.117  .045 1.000
+  9.).mDl   |  .016  .128 -.049 -.210  .129  .048 -.054 -.239 1.000
+ 10.) pi    |  .776  .052  .030 -.017 -.026  .062 -.149 -.068  .022 1.000
+ 11.) DM    |  .412  .091  .020 -.001 -.007 -.097  .085 -.003  .013 -.051 1.000
+               1.)   2.)   3.)   4.)   5.)   6.)   7.)   8.)   9.)  10.)  11.)
+
+ --------------------------------------------------------------------------------
+  Correlations exceeding 0.95='*'
+  1 .Const )*
+  2 .F     ):*
+  3 .Fdot  )::*
+  4  F2dot ):::*
+  5  F3dot )::*:*
+  6 .Al    ):::::*
+  7 .Dl    )::::::*
+  8 .mAl   ):::::::*
+  9 .mDl   )::::::::*
+ 10  pi    ):::::::::*
+ 11  DM    )::::::::::*
+            12345678901
+ --------------------------------------------------------------------------------
+ 0 sig=      25.846 us; Chi2=       7342779.903(n=    428) Sig(unw)=      26.098
+ 1 sig=        .534 us; Chi2=          3133.717(n=    428) Sig(unw)=        .575
+ 2 sig=        .534 us; Chi2=          3133.434(n=    428) Sig(unw)=        .575
+ 3 sig=        .534 us; Chi2=          3133.346(n=    428) Sig(unw)=        .575
+ 4 sig=        .534 us; Chi2=          3130.790(n=    428) Sig(unw)=        .575
+
+  Time End.=19: 2: 3
+  Total Time=     0 min.   .000000 sec.
+
+--------------------------------------------------------------------------------
+......... ADJUSTED Pulsar's parameters:
+ ** Spin parameters:
+ Const       :       -.32100376E-03+/- 1.2E-07s
+ Alpha       : 19:39:38.5612263        1.2E-06s
+ Delta       : 21:34:59.1352211        2.4E-05" 
+ M-Alpha     : 7.92478E-02             7.3E-03 mas/yr
+ M-Delta     : -.40401                 1.0E-02 mas/yr
+ P           : 1.557806468820096E-03   1.3E-18 s
+ dP/dt       : 1.051195059960736E-19   6.1E-26
+ d2P/dt2     :-2.439057646641215E-32   7.8E-34 s-1
+ MJD(P)      :     47500.0000000    
+ DM          :        71.0400320      3.9E-05 pc cm-3
+ Parallax    :          -6.11640E-03   .114     mas
+ =Distance   :          -163495.     pc (   9.279E+03...  -8.333E+03 pc)
+        f0   :   6.4192826260210230D+02  5.4420344106066620D-13 1/s
+        f1dot:      -4.331679396656D-14      2.495997138473D-20 1/s2
+        f2dot:       1.005651701189D-26      3.220609447861D-28 1/s3
+        f3dot:      -9.104589406088D-35      2.007361834544D-35 1/s4
+
+--------------------------------------------------------------------------------
+......... DEDUCED Pulsar's parameters:
+ Char.age        tau= 2.348E+08 yrs
+ Break-down index n=   -.344E+04
+
+
+  File _res.out:(Date)vs(Residuals TOA)

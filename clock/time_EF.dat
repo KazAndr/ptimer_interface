@@ -1,0 +1,802 @@
+   MJD       EECO-REF    NIST-REF NS   DATE    COMMENTS	
+=========    ========    ======== == ========  ========
+ 49320.00       0.0        -5.000 g 28-NOV-93  MK *NEEDS CORRECTIONS
+ 49358.71       0.0        -2.000 g 06-JAN-94  MK *NEEDS CORRECTIONS
+ 49427.33       0.0        -0.700 g 16-MAR-94  MK Effelsberg: maser-GPS
+ 49455.26       0.0        -8.300 g 13-APR-94  MK Effelsberg: maser-GPS
+ 49460.78       0.0       -11.500 g 18-APR-94  MK Effelsberg: maser-GPS
+ 49537.70       0.0        -2.009 g 04-JUL-94  MK Effelsberg: maser-GPS
+ 49541.29       0.0        -3.000 g 08-JUL-94  MK  *NEEDS CORRECTIONS
+ 49575.25       0.0       -10.500 g 11-AUG-94  MK Effelsberg: maser-GPS
+ 49575.68       0.0       -10.500 g 11-AUG-94  MK Effelsberg: maser-GPS
+ 49589.53       0.0        -0.400 g 25-AUG-94  MK Effelsberg: maser-GPS
+ 49650.54       0.0        -0.746 g 25-OCT-94  MK Effelsberg: maser-GPS
+ 49650.63       0.0        -0.713 g 25-OCT-94  MK Effelsberg: maser-GPS
+ 49650.65       0.0        -0.800 g 25-OCT-94  MK Effelsberg: maser-GPS
+ 49650.67       0.0        -0.666 g 25-OCT-94  MK Effelsberg: maser-GPS
+ 49650.69       0.0        -0.609 g 25-OCT-94  MK Effelsberg: maser-GPS
+ 49650.77       0.0        -0.729 g 25-OCT-94  MK Effelsberg: maser-GPS
+ 49650.79       0.0        -0.733 g 25-OCT-94  MK Effelsberg: maser-GPS
+ 49650.86       0.0        -0.767 g 25-OCT-94  MK Effelsberg: maser-GPS
+ 49650.88       0.0        -0.851 g 26-OCT-94  MK Effelsberg: maser-GPS
+ 49651.00       0.0        -0.720 g 26-OCT-94  MK Effelsberg: maser-GPS
+ 49651.02       0.0        -0.903 g 26-OCT-94  MK Effelsberg: maser-GPS
+ 49651.04       0.0        -0.857 g 26-OCT-94  MK Effelsberg: maser-GPS
+ 49651.21       0.0        -0.912 g 26-OCT-94  MK Effelsberg: maser-GPS
+ 49651.23       0.0        -0.891 g 26-OCT-94  MK Effelsberg: maser-GPS
+ 49651.25       0.0        -0.876 g 26-OCT-94  MK Effelsberg: maser-GPS
+ 49675.75       0.0        +1.730 g 19-NOV-94  MK Effelsberg: maser-GPS
+ 49676.59       0.0        +2.000 g 20-NOV-94  MK Effelsberg: maser-GPS
+ 49677.31       0.0        +2.073 g 21-NOV-94  MK Effelsberg: maser-GPS
+ 49684.29       0.0        +1.884 g 27-NOV-94  MK Effelsberg: maser-GPS
+ 49695.08       0.0        +1.870 g 09-DEC-94  MK Effelsberg: maser-GPS
+ 49695.21       0.0        +1.880 g 09-DEC-94  MK Effelsberg: maser-GPS
+ 49698.52       0.0        +2.707 g 12-DEC-94  MK Effelsberg: maser-GPS
+ 49699.04       0.0        +2.578 g 13-DEC-94  MK Effelsberg: maser-GPS
+ 49726.63       0.0        +4.600 g 09-JAN-95  MK Effelsberg: maser-GPS
+ 49727.28       0.0        +4.984 g 10-JAN-95  MK Effelsberg: maser-GPS
+ 49752.63       0.0        +0.420 g 04-FEB-95  MK Effelsberg: maser-GPS
+ 49753.30       0.0        +0.738 g 05-FEB-95  MK Effelsberg: maser-GPS
+ 49768.38       0.0        -0.800 g 20-FEB-95  MK Effelsberg: maser-GPS
+ 49769.54       0.0        -0.810 g 21-FEB-95  MK Effelsberg: maser-GPS
+ 49772.16       0.0        -0.890 g 24-FEB-95  MK Effelsberg: maser-GPS
+ 49773.96       0.0        -0.820 g 25-FEB-95  MK Effelsberg: maser-GPS
+ 49781.41       0.0        -0.208 g 05-MAR-95  MK Effelsberg: maser-GPS
+ 49781.71       0.0        -0.196 g 05-MAR-95  MK Effelsberg: maser-GPS
+ 49782.50       0.0        -0.221 g 06-MAR-95  MK Effelsberg: maser-GPS
+ 49792.60       0.0        -0.744 g 16-MAR-95  MK Effelsberg: maser-GPS
+ 49792.62       0.0        -0.675 g 16-MAR-95  MK Effelsberg: maser-GPS
+ 49792.64       0.0        -0.874 g 16-MAR-95  MK Effelsberg: maser-GPS
+ 49792.67       0.0        -0.568 g 16-MAR-95  MK Effelsberg: maser-GPS
+ 49792.77       0.0        -0.611 g 16-MAR-95  MK Effelsberg: maser-GPS
+ 49792.94       0.0        -0.806 g 16-MAR-95  MK Effelsberg: maser-GPS
+ 49792.96       0.0        -0.786 g 16-MAR-95  MK Effelsberg: maser-GPS
+ 49792.98       0.0        -0.760 g 16-MAR-95  MK Effelsberg: maser-GPS
+ 49793.06       0.0        -0.813 g 17-MAR-95  MK Effelsberg: maser-GPS
+ 49793.08       0.0        -0.799 g 17-MAR-95  MK Effelsberg: maser-GPS
+ 49793.10       0.0        -0.622 g 17-MAR-95  MK Effelsberg: maser-GPS
+ 49793.12       0.0        -0.904 g 17-MAR-95  MK Effelsberg: maser-GPS
+ 49793.14       0.0        -0.672 g 17-MAR-95  MK Effelsberg: maser-GPS
+ 49793.17       0.0        -0.766 g 17-MAR-95  MK Effelsberg: maser-GPS
+ 49793.19       0.0        -0.822 g 17-MAR-95  MK Effelsberg: maser-GPS
+ 49793.21       0.0        -0.639 g 17-MAR-95  MK Effelsberg: maser-GPS
+ 49793.27       0.0        -0.657 g 17-MAR-95  MK Effelsberg: maser-GPS
+ 49793.37       0.0        -0.701 g 17-MAR-95  MK Effelsberg: maser-GPS
+ 49793.45       0.0        -0.880 g 17-MAR-95  MK Effelsberg: maser-GPS
+ 49793.48       0.0        -0.678 g 17-MAR-95  MK Effelsberg: maser-GPS
+ 49818.56       0.0        -1.662 g 11-APR-95  MK Effelsberg: maser-GPS
+ 49818.61       0.0        -1.648 g 11-APR-95  MK Effelsberg: maser-GPS
+ 49818.69       0.0        -1.772 g 11-APR-95  MK Effelsberg: maser-GPS
+ 49818.77       0.0        -1.625 g 11-APR-95  MK Effelsberg: maser-GPS
+ 49818.90       0.0        -1.636 g 11-APR-95  MK Effelsberg: maser-GPS
+ 49819.00       0.0        -1.595 g 12-APR-95  MK Effelsberg: maser-GPS
+ 49819.08       0.0        -1.823 g 12-APR-95  MK Effelsberg: maser-GPS
+ 49819.17       0.0        -1.630 g 12-APR-95  MK Effelsberg: maser-GPS
+ 49819.19       0.0        -1.732 g 12-APR-95  MK Effelsberg: maser-GPS
+ 49819.34       0.0        -1.550 g 12-APR-95  MK Effelsberg: maser-GPS
+ 49834.50       0.0        -0.048 g 27-APR-95  MK Effelsberg: maser-GPS
+ 49834.54       0.0        +0.049 g 27-APR-95  MK Effelsberg: maser-GPS
+ 49834.65       0.0        +0.005 g 27-APR-95  MK Effelsberg: maser-GPS
+ 49834.69       0.0        -0.068 g 27-APR-95  MK Effelsberg: maser-GPS
+ 49834.73       0.0        -0.033 g 27-APR-95  MK Effelsberg: maser-GPS
+ 49834.77       0.0        +0.005 g 27-APR-95  MK Effelsberg: maser-GPS
+ 49834.86       0.0        -0.053 g 27-APR-95  MK Effelsberg: maser-GPS
+ 49834.98       0.0        +0.125 g 27-APR-95  MK Effelsberg: maser-GPS
+ 49835.06       0.0        -0.059 g 28-APR-95  MK Effelsberg: maser-GPS
+ 49835.11       0.0        -0.082 g 28-APR-95  MK Effelsberg: maser-GPS
+ 49835.15       0.0        -0.067 g 28-APR-95  MK Effelsberg: maser-GPS
+ 49835.27       0.0        -0.002 g 28-APR-95  MK Effelsberg: maser-GPS
+ 49835.31       0.0        -0.128 g 28-APR-95  MK Effelsberg: maser-GPS
+ 49835.35       0.0        -0.123 g 28-APR-95  MK Effelsberg: maser-GPS
+ 49876.52       0.0        -2.947 g 08-JUN-95  MK Effelsberg: maser-GPS
+ 49876.56       0.0        -3.105 g 08-JUN-95  MK Effelsberg: maser-GPS
+ 49876.67       0.0        -3.056 g 08-JUN-95  MK Effelsberg: maser-GPS
+ 49876.87       0.0        -2.804 g 08-JUN-95  MK Effelsberg: maser-GPS
+ 49876.98       0.0        -3.041 g 08-JUN-95  MK Effelsberg: maser-GPS
+ 49877.02       0.0        -3.128 g 09-JUN-95  MK Effelsberg: maser-GPS
+ 49877.17       0.0        -3.167 g 09-JUN-95  MK Effelsberg: maser-GPS
+ 49877.23       0.0        -3.116 g 09-JUN-95  MK Effelsberg: maser-GPS 
+ 49909.29       0.0        -0.486 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49909.34       0.0        -0.401 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49909.38       0.0        -0.081 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49909.40       0.0        -0.141 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49909.44       0.0        -0.189 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49909.46       0.0        -0.136 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49909.48       0.0        -0.075 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49909.56       0.0        -0.479 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49909.58       0.0        -0.428 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49909.61       0.0        -0.431 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49909.63       0.0        -0.374 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49909.65       0.0        -0.342 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49909.75       0.0        -0.553 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49909.79       0.0        -0.529 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49909.81       0.0        -0.373 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49909.86       0.0        -0.255 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49909.88       0.0        -0.103 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49909.94       0.0        -0.120 g 11-JUL-95  MK Effelsberg: maser-GPS
+ 49910.06       0.0        -0.452 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.11       0.0        -0.620 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.15       0.0        -0.309 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.19       0.0        -0.298 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.23       0.0        -0.224 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.27       0.0        -0.182 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.31       0.0        -0.387 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.36       0.0        -0.162 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.39       0.0        -0.094 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.44       0.0        -0.299 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.46       0.0        -0.231 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.48       0.0        -0.144 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.56       0.0        -0.488 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.60       0.0        -0.440 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.64       0.0        -0.368 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.75       0.0        -0.516 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.79       0.0        -0.471 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.83       0.0        -0.410 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.87       0.0        -0.265 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.89       0.0        -0.241 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49910.92       0.0        -0.068 g 12-JUL-95  MK Effelsberg: maser-GPS
+ 49911.06       0.0        -0.527 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.10       0.0        -0.489 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.14       0.0        -0.420 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.19       0.0        -0.283 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.25       0.0        -0.323 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.27       0.0        -0.243 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.31       0.0        -0.500 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.35       0.0        -0.217 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.39       0.0        -0.061 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.43       0.0        -0.240 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.45       0.0        -0.337 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.48       0.0        -0.122 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.56       0.0        -0.512 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.64       0.0        -0.405 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.75       0.0        -0.635 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.79       0.0        -0.510 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.81       0.0        -0.326 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.83       0.0        -0.382 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.87       0.0        -0.241 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.89       0.0        -0.073 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49911.93       0.0        -0.362 g 13-JUL-95  MK Effelsberg: maser-GPS
+ 49912.04       0.0        -0.573 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.06       0.0        -0.549 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.10       0.0        -0.462 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.14       0.0        -0.539 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.18       0.0        -0.391 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.27       0.0        -0.133 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.31       0.0        -0.540 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.35       0.0        -0.286 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.39       0.0        -0.215 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.43       0.0        -0.441 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.45       0.0        -0.342 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.47       0.0        -0.165 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.56       0.0        -0.532 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.60       0.0        -0.477 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.62       0.0        -0.448 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.64       0.0        -0.487 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.74       0.0        -0.639 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.76       0.0        -0.562 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.78       0.0        -0.349 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.81       0.0        -0.469 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.83       0.0        -0.478 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.85       0.0        -0.289 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.89       0.0        -0.266 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.91       0.0        -0.100 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49912.93       0.0        -0.310 g 14-JUL-95  MK Effelsberg: maser-GPS
+ 49913.06       0.0        -0.536 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.10       0.0        -0.547 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.14       0.0        -0.526 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.18       0.0        -0.347 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.26       0.0        -0.051 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.31       0.0        -0.478 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.35       0.0        -0.269 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.39       0.0        -0.367 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.43       0.0        -0.379 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.45       0.0        -0.336 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.47       0.0        -0.248 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.55       0.0        -0.598 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.59       0.0        -0.554 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.64       0.0        -0.488 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.76       0.0        -0.562 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.78       0.0        -0.699 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.80       0.0        -0.519 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.82       0.0        -0.557 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.84       0.0        -0.425 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.87       0.0        -0.220 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.89       0.0        -0.119 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.91       0.0        -0.304 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49913.93       0.0        -0.210 g 15-JUL-95  MK Effelsberg: maser-GPS
+ 49914.02       0.0        -0.630 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.05       0.0        -0.561 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.14       0.0        -0.597 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.18       0.0        -0.495 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.26       0.0        -0.421 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.30       0.0        -0.575 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.34       0.0        -0.331 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.38       0.0        -0.253 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.43       0.0        -0.246 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.47       0.0        -0.254 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.55       0.0        -0.618 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.59       0.0        -0.570 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.63       0.0        -0.496 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.73       0.0        -0.379 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.76       0.0        -0.654 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.80       0.0        -0.569 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.82       0.0        -0.614 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.84       0.0        -0.404 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.88       0.0        -0.314 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49914.93       0.0        -0.379 g 16-JUL-95  MK Effelsberg: maser-GPS
+ 49915.02       0.0        -0.648 g 17-JUL-95  MK Effelsberg: maser-GPS
+ 49915.05       0.0        -0.573 g 17-JUL-95  MK Effelsberg: maser-GPS
+ 49915.07       0.0        -0.531 g 17-JUL-95  MK Effelsberg: maser-GPS
+ 49915.09       0.0        -0.589 g 17-JUL-95  MK Effelsberg: maser-GPS
+ 49915.13       0.0        -0.347 g 17-JUL-95  MK Effelsberg: maser-GPS
+ 49915.18       0.0        -0.456 g 17-JUL-95  MK Effelsberg: maser-GPS
+ 49915.22       0.0        -0.452 g 17-JUL-95  MK Effelsberg: maser-GPS
+ 49928.22       0.0        -0.838 g 30-JUL-95  MK Effelsberg: maser-GPS
+ 49928.26       0.0        -1.109 g 30-JUL-95  MK Effelsberg: maser-GPS
+ 49928.31       0.0        -0.992 g 30-JUL-95  MK Effelsberg: maser-GPS
+ 49928.34       0.0        -0.807 g 30-JUL-95  MK Effelsberg: maser-GPS
+ 49928.39       0.0        -0.915 g 30-JUL-95  MK Effelsberg: maser-GPS
+ 49928.43       0.0        -0.918 g 30-JUL-95  MK Effelsberg: maser-GPS
+ 49928.53       0.0        -1.188 g 30-JUL-95  MK Effelsberg: maser-GPS
+ 49928.59       0.0        -1.095 g 30-JUL-95  MK Effelsberg: maser-GPS
+ 49928.72       0.0        -1.196 g 30-JUL-95  MK Effelsberg: maser-GPS
+ 49928.80       0.0        -0.970 g 30-JUL-95  MK Effelsberg: maser-GPS
+ 49928.82       0.0        -0.929 g 30-JUL-95  MK Effelsberg: maser-GPS
+ 49928.84       0.0        -0.750 g 30-JUL-95  MK Effelsberg: maser-GPS
+ 49928.88       0.0        -0.874 g 30-JUL-95  MK Effelsberg: maser-GPS
+ 49928.89       0.0        -1.068 g 30-JUL-95  MK Effelsberg: maser-GPS
+ 49928.98       0.0        -1.245 g 30-JUL-95  MK Effelsberg: maser-GPS
+ 49929.03       0.0        -1.324 g 31-JUL-95  MK Effelsberg: maser-GPS
+ 49929.05       0.0        -1.194 g 31-JUL-95  MK Effelsberg: maser-GPS
+ 49929.09       0.0        -1.094 g 31-JUL-95  MK Effelsberg: maser-GPS
+ 49929.18       0.0        -0.959 g 31-JUL-95  MK Effelsberg: maser-GPS
+ 49929.22       0.0        -0.880 g 31-JUL-95  MK Effelsberg: maser-GPS
+ 49929.26       0.0        -1.225 g 31-JUL-95  MK Effelsberg: maser-GPS
+ 49929.30       0.0        -0.933 g 31-JUL-95  MK Effelsberg: maser-GPS
+ 49929.34       0.0        -0.869 g 31-JUL-95  MK Effelsberg: maser-GPS
+ 49929.38       0.0        -0.937 g 31-JUL-95  MK Effelsberg: maser-GPS
+ 49929.42       0.0        -0.843 g 31-JUL-95  MK Effelsberg: maser-GPS
+ 49929.51       0.0        -1.249 g 31-JUL-95  MK Effelsberg: maser-GPS
+ 49929.59       0.0        -1.111 g 31-JUL-95  MK Effelsberg: maser-GPS
+ 49929.74       0.0        -1.341 g 31-JUL-95  MK Effelsberg: maser-GPS
+ 49929.78       0.0        -1.266 g 31-JUL-95  MK Effelsberg: maser-GPS
+ 49929.84       0.0        -0.934 g 31-JUL-95  MK Effelsberg: maser-GPS
+ 49929.98       0.0        -1.285 g 31-JUL-95  MK Effelsberg: maser-GPS
+ 49930.01       0.0        -1.106 g 01-AUG-95  MK Effelsberg: maser-GPS
+ 49930.13       0.0        -1.244 g 01-AUG-95  MK Effelsberg: maser-GPS
+ 49930.18       0.0        -1.021 g 01-AUG-95  MK Effelsberg: maser-GPS
+ 49930.22       0.0        -0.895 g 01-AUG-95  MK Effelsberg: maser-GPS
+ 49930.26       0.0        -1.157 g 01-AUG-95  MK Effelsberg: maser-GPS
+ 49930.34       0.0        -0.904 g 01-AUG-95  MK Effelsberg: maser-GPS
+ 49930.42       0.0        -0.942 g 01-AUG-95  MK Effelsberg: maser-GPS
+ 49930.51       0.0        -1.287 g 01-AUG-95  MK Effelsberg: maser-GPS
+ 49930.68       0.0        -1.091 g 01-AUG-95  MK Effelsberg: maser-GPS
+ 49930.72       0.0        -1.398 g 01-AUG-95  MK Effelsberg: maser-GPS
+ 49930.80       0.0        -1.005 g 01-AUG-95  MK Effelsberg: maser-GPS
+ 49930.88       0.0        -0.971 g 01-AUG-95  MK Effelsberg: maser-GPS
+ 49930.98       0.0        -1.321 g 01-AUG-95  MK Effelsberg: maser-GPS
+ 49931.01       0.0        -1.212 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.09       0.0        -1.303 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.13       0.0        -1.170 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.21       0.0        -0.939 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.26       0.0        -1.253 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.34       0.0        -0.941 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.38       0.0        -1.129 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.42       0.0        -0.945 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.50       0.0        -1.350 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.57       0.0        -1.270 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.59       0.0        -1.231 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.68       0.0        -1.127 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.72       0.0        -1.304 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.75       0.0        -1.295 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.79       0.0        -1.189 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.82       0.0        -1.220 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.84       0.0        -0.912 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.88       0.0        -1.069 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49931.97       0.0        -1.387 g 02-AUG-95  MK Effelsberg: maser-GPS
+ 49932.01       0.0        -1.352 g 03-AUG-95  MK Effelsberg: maser-GPS
+ 49932.09       0.0        -1.277 g 03-AUG-95  MK Effelsberg: maser-GPS
+ 49932.17       0.0        -1.062 g 03-AUG-95  MK Effelsberg: maser-GPS
+ 49932.21       0.0        -1.090 g 03-AUG-95  MK Effelsberg: maser-GPS
+ 49932.25       0.0        -1.357 g 03-AUG-95  MK Effelsberg: maser-GPS
+ 49932.29       0.0        -1.079 g 03-AUG-95  MK Effelsberg: maser-GPS
+ 49932.33       0.0        -1.035 g 03-AUG-95  MK Effelsberg: maser-GPS
+ 49932.37       0.0        -1.227 g 03-AUG-95  MK Effelsberg: maser-GPS
+ 49932.40       0.0        -1.074 g 03-AUG-95  MK Effelsberg: maser-GPS
+ 49932.42       0.0        -0.926 g 03-AUG-95  MK Effelsberg: maser-GPS
+ 49932.50       0.0        -1.394 g 03-AUG-95  MK Effelsberg: maser-GPS
+ 49932.52       0.0        -1.388 g 03-AUG-95  MK Effelsberg: maser-GPS
+ 49960.05       0.0        -3.252 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.09       0.0        -3.152 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.13       0.0        -3.019 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.18       0.0        -3.324 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.22       0.0        -3.130 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.26       0.0        -3.030 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.30       0.0        -3.135 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.32       0.0        -2.890 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.34       0.0        -2.925 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.42       0.0        -3.367 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.46       0.0        -3.317 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.51       0.0        -3.256 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.63       0.0        -3.446 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.65       0.0        -3.515 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.69       0.0        -3.317 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.72       0.0        -3.168 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.76       0.0        -3.005 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.78       0.0        -2.972 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.80       0.0        -3.143 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.89       0.0        -3.404 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.94       0.0        -3.416 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.98       0.0        -3.277 g 31-AUG-95  MK Effelsberg: maser-GPS
+ 49960.09       0.0        -3.152 g 01-SEP-95  MK Effelsberg: maser-GPS
+ 49961.02       0.0        -3.311 g 01-SEP-95  MK Effelsberg: maser-GPS
+ 49961.05       0.0        -3.234 g 01-SEP-95  MK Effelsberg: maser-GPS
+ 49961.09       0.0        -3.286 g 01-SEP-95  MK Effelsberg: maser-GPS
+ 49961.13       0.0        -3.000 g 01-SEP-95  MK Effelsberg: maser-GPS
+ 49961.17       0.0        -3.193 g 01-SEP-95  MK Effelsberg: maser-GPS
+ 49961.21       0.0        -3.181 g 01-SEP-95  MK Effelsberg: maser-GPS
+ 49961.25       0.0        -3.114 g 01-SEP-95  MK Effelsberg: maser-GPS
+ 49990.00       0.0        -3.114 g 01-SEP-95  MK Effelsberg: maser-GPS
+ 49991.01       0.0        +0.490 g 01-OCT-95  MK Effelsberg: maser-GPS 
+ 49991.05       0.0        +0.369 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.09       0.0        +0.260 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.13       0.0        +0.415 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.17       0.0        +0.674 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.21       0.0        +0.546 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.23       0.0        +0.595 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.25       0.0        +0.672 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.34       0.0        +0.259 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.38       0.0        +0.302 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.42       0.0        +0.379 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.51       0.0        +0.489 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.55       0.0        +0.135 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.58       0.0        +0.160 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.60       0.0        +0.293 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.62       0.0        +0.531 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.64       0.0        +0.641 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.66       0.0        +0.521 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.67       0.0        +0.655 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.71       0.0        +0.462 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.81       0.0        +0.274 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.86       0.0        +0.172 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.89       0.0        +0.339 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.93       0.0        +0.319 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49991.97       0.0        +0.397 g 01-OCT-95  MK Effelsberg: maser-GPS
+ 49992.00       0.0        +0.367 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.04       0.0        +0.708 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.09       0.0        +0.389 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.13       0.0        +0.399 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.17       0.0        +0.576 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.21       0.0        +0.481 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.23       0.0        +0.619 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.25       0.0        +0.696 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.33       0.0        +0.272 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.37       0.0        +0.331 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.40       0.0        +0.377 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.42       0.0        +0.417 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.55       0.0        +0.255 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.56       0.0        +0.333 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.58       0.0        +0.398 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.60       0.0        +0.305 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.62       0.0        +0.525 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.64       0.0        +0.687 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.67       0.0        +0.686 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.71       0.0        +0.579 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.80       0.0        +0.303 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.86       0.0        +0.249 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.88       0.0        +0.321 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.93       0.0        +0.331 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49992.96       0.0        +0.398 g 02-OCT-95  MK Effelsberg: maser-GPS
+ 49993.04       0.0        +0.710 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.08       0.0        +0.292 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.13       0.0        +0.479 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.16       0.0        +0.619 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.21       0.0        +0.592 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.23       0.0        +0.621 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.25       0.0        +0.703 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.33       0.0        +0.282 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.35       0.0        +0.384 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.41       0.0        +0.412 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.54       0.0        +0.286 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.56       0.0        +0.263 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.58       0.0        +0.354 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.60       0.0        +0.293 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.62       0.0        +0.382 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.63       0.0        +0.488 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.65       0.0        +0.590 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.69       0.0        +0.738 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.71       0.0        +0.474 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.80       0.0        +0.313 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.85       0.0        +0.272 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.89       0.0        +0.408 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49993.96       0.0        +0.483 g 03-OCT-95  MK Effelsberg: maser-GPS
+ 49994.00       0.0        +0.489 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49994.04       0.0        +0.603 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49994.08       0.0        +0.358 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49994.12       0.0        +0.599 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49994.16       0.0        +0.631 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49994.24       0.0        +0.654 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49995.33       0.0        +0.305 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49995.37       0.0        +0.364 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49995.41       0.0        +0.444 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49995.54       0.0        +0.275 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49995.58       0.0        +0.432 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49995.59       0.0        +0.393 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49995.61       0.0        +0.519 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49995.68       0.0        +0.643 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49995.70       0.0        +0.605 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49995.80       0.0        +0.327 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49995.85       0.0        +0.422 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49995.92       0.0        +0.425 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 49995.96       0.0        +0.384 g 04-OCT-95  MK Effelsberg: maser-GPS
+ 50043.06       0.0        -0.562 g 22-NOV-95  MK Effelsberg: maser-GPS
+ 50043.21       0.0        -0.423 g 22-NOV-95  MK Effelsberg: maser-GPS
+ 50043.37       0.0        -0.533 g 22-NOV-95  MK Effelsberg: maser-GPS
+ 50043.50       0.0        -0.612 g 22-NOV-95  MK Effelsberg: maser-GPS
+ 50043.52       0.0        -0.273 g 22-NOV-95  MK Effelsberg: maser-GPS
+ 50043.56       0.0        -0.481 g 22-NOV-95  MK Effelsberg: maser-GPS
+ 50043.69       0.0        -0.733 g 22-NOV-95  MK Effelsberg: maser-GPS
+ 50043.73       0.0        -0.640 g 22-NOV-95  MK Effelsberg: maser-GPS
+ 50043.77       0.0        -0.607 g 22-NOV-95  MK Effelsberg: maser-GPS
+ 50043.81       0.0        -0.582 g 22-NOV-95  MK Effelsberg: maser-GPS
+ 50043.86       0.0        -0.637 g 22-NOV-95  MK Effelsberg: maser-GPS
+ 50043.90       0.0        -0.714 g 22-NOV-95  MK Effelsberg: maser-GPS
+ 50043.94       0.0        -0.503 g 22-NOV-95  MK Effelsberg: maser-GPS
+ 50043.98       0.0        -0.407 g 22-NOV-95  MK Effelsberg: maser-GPS
+ 50044.02       0.0        -0.384 g 23-NOV-95  MK Effelsberg: maser-GPS
+ 50044.06       0.0        -0.577 g 23-NOV-95  MK Effelsberg: maser-GPS
+ 50044.08       0.0        -0.564 g 23-NOV-95  MK Effelsberg: maser-GPS
+ 50044.13       0.0        -0.520 g 23-NOV-95  MK Effelsberg: maser-GPS
+ 50044.17       0.0        -0.482 g 23-NOV-95  MK Effelsberg: maser-GPS
+ 50044.19       0.0        -0.465 g 23-NOV-95  MK Effelsberg: maser-GPS
+ 50044.23       0.0        -0.590 g 23-NOV-95  MK Effelsberg: maser-GPS
+ 50044.27       0.0        -0.501 g 23-NOV-95  MK Effelsberg: maser-GPS
+ 50073.00       0.0        -0.470 g 23-NOV-95  OD Effelsberg: maser-GPSp
+ 50074.50       0.0        -0.351 g 23-NOV-95  OD Effelsberg: maser-GPSp
+ 50280.00       0.0        -0.320 g 15-JUL-96  OD Effelsberg: maser-GPSp
+ 50284.00       0.0        -0.250 g 19-JUL-96  OD Effelsberg: maser-GPSp
+ 50290.00       0.0        -0.160 g 25-JUL-96  OD Effelsberg: maser-GPSp
+ 50300.00       0.0        -0.170 g 04-AUG-96  OD Effelsberg: maser-GPSp
+ 50310.00       0.0        -0.290 g 14-AUG-96  OD Effelsberg: maser-GPSp
+ 50315.00       0.0        -0.375 g 19-AUG-96  OD Effelsberg: maser-GPSp
+ 50320.00       0.0        -0.500 g 24-AUG-96  OD Effelsberg: maser-GPSp
+ 50330.00       0.0        -0.813 g 03-SEP-96  OD Effelsberg: maser-GPSp
+ 50335.58       0.0        -0.613 g 09-SEP-96  OD Effelsberg: maser-GPS
+ 50335.63       0.0        -0.777 g 09-SEP-96  OD Effelsberg: maser-GPS
+ 50335.67       0.0        -0.526 g 09-SEP-96  OD Effelsberg: maser-GPS
+ 50335.71       0.0        -0.634 g 09-SEP-96  OD Effelsberg: maser-GPS
+ 50335.88       0.0        -0.715 g 09-SEP-96  OD Effelsberg: maser-GPS
+ 50335.92       0.0        -0.585 g 09-SEP-96  OD Effelsberg: maser-GPS
+ 50335.96       0.0        -0.563 g 09-SEP-96  OD Effelsberg: maser-GPS
+ 50336.06       0.0        -0.395 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.11       0.0        -0.609 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.15       0.0        -0.736 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.19       0.0        -0.661 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.21       0.0        -0.615 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.23       0.0        -0.554 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.27       0.0        -0.451 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.29       0.0        -0.386 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.33       0.0        -0.599 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.36       0.0        -0.679 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.40       0.0        -0.620 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.46       0.0        -0.434 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.62       0.0        -0.642 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.67       0.0        -0.548 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.71       0.0        -0.515 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.88       0.0        -0.634 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.92       0.0        -0.748 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50336.96       0.0        -0.607 g 10-SEP-96  OD Effelsberg: maser-GPS
+ 50337.02       0.0        -0.540 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.06       0.0        -0.860 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.11       0.0        -0.480 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.13       0.0        -0.727 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.19       0.0        -0.625 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.23       0.0        -0.511 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.27       0.0        -0.365 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.33       0.0        -0.550 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.36       0.0        -0.612 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.40       0.0        -0.573 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.44       0.0        -0.483 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.58       0.0        -0.561 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.67       0.0        -0.540 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.71       0.0        -0.496 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.75       0.0        -0.558 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.88       0.0        -0.609 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.92       0.0        -0.643 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50337.96       0.0        -0.619 g 11-SEP-96  OD Effelsberg: maser-GPS
+ 50338.02       0.0        -0.338 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.06       0.0        -0.257 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.11       0.0        -0.500 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.13       0.0        -0.608 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.15       0.0        -0.579 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.17       0.0        -0.551 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.19       0.0        -0.515 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.21       0.0        -0.453 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.23       0.0        -0.426 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.25       0.0        -0.393 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.27       0.0        -0.342 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.33       0.0        -0.616 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.36       0.0        -0.587 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.40       0.0        -0.528 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.42       0.0        -0.487 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.44       0.0        -0.451 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.48       0.0        -0.396 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.56       0.0        -0.407 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.61       0.0        -0.466 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.65       0.0        -0.463 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.69       0.0        -0.533 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.73       0.0        -0.431 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.77       0.0        -0.516 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.86       0.0        -0.494 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.90       0.0        -0.510 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.94       0.0        -0.464 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50338.98       0.0        -0.442 g 12-SEP-96  OD Effelsberg: maser-GPS
+ 50339.00       0.0        -0.292 g 13-SEP-96  OD Effelsberg: maser-GPS
+ 50339.08       0.0        -0.562 g 13-SEP-96  OD Effelsberg: maser-GPS
+ 50339.11       0.0        -0.728 g 13-SEP-96  OD Effelsberg: maser-GPS
+ 50339.13       0.0        -0.591 g 13-SEP-96  OD Effelsberg: maser-GPS
+ 50339.15       0.0        -0.579 g 13-SEP-96  OD Effelsberg: maser-GPS
+ 50339.17       0.0        -0.540 g 13-SEP-96  OD Effelsberg: maser-GPS
+ 50339.19       0.0        -0.486 g 13-SEP-96  OD Effelsberg: maser-GPS
+ 50339.21       0.0        -0.440 g 13-SEP-96  OD Effelsberg: maser-GPS
+ 50339.23       0.0        -0.386 g 13-SEP-96  OD Effelsberg: maser-GPS
+ 50339.25       0.0        -0.340 g 13-SEP-96  OD Effelsberg: maser-GPS
+ 50353.42       0.0        -0.019 g 27-SEP-96  OD Effelsberg: maser-GPS
+ 50353.62       0.0        -0.042 g 27-SEP-96  OD Effelsberg: maser-GPS
+ 50353.62       0.0         0.250 g 27-SEP-96  OD Effelsberg: maser-GPS
+ 50353.62       0.0         0.200 g 27-SEP-96  OD Effelsberg: maser-GPS
+ 50353.86       0.0         0.286 g 27-SEP-96  OD Effelsberg: maser-GPS
+ 50353.94       0.0         0.234 g 27-SEP-96  OD Effelsberg: maser-GPS
+ 50354.03       0.0         0.355 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50354.04       0.0         0.096 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50354.12       0.0         0.065 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50354.15       0.0         0.127 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50354.25       0.0         0.382 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50354.29       0.0         0.083 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50354.36       0.0         0.049 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50354.50       0.0         0.242 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50354.54       0.0         0.101 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50354.58       0.0         0.075 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50354.67       0.0         0.096 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50354.73       0.0         0.203 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50354.83       0.0         0.115 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50354.92       0.0         0.253 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50354.96       0.0         0.359 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50355.04       0.0         0.205 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50355.06       0.0         0.115 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50355.12       0.0         0.137 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50355.17       0.0         0.233 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50355.23       0.0         0.371 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50355.27       0.0         0.146 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50355.31       0.0         0.124 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50355.54       0.0         0.199 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50355.62       0.0         0.147 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50355.83       0.0         0.125 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50355.92       0.0         0.156 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50355.96       0.0         0.287 g 28-SEP-96  OD Effelsberg: maser-GPS
+ 50356.04       0.0         0.165 g 29-SEP-96  OD Effelsberg: maser-GPS
+ 50356.54       0.0         0.206 g 29-SEP-96  OD E felsberg: maser-GPS
+ 50356.92       0.0         0.320 g 29-SEP-96  OD Effelsberg: maser-GPS
+ 50357.62       0.0         0.320 g 30-SEP-96  OD Effelsberg: maser-GPS
+ 50357.83       0.0         0.326 g 30-SEP-96  OD Effelsberg: maser-GPS
+ 50360.5        0.0        -0.395 g 04-OCT-96  CL Eff: pol. - Grypstra
+ 50360.75       0.0        -0.401 g 04-OCT-96  CL Eff: pol. - Grypstra
+ 50361.0        0.0        -0.407 g 05-OCT-96  CL Eff: pol. - Grypstra
+ 50361.25       0.0        -0.412 g 05-OCT-96  CL Eff: pol. - Grypstra
+ 50361.5        0.0        -0.418 g 05-OCT-96  CL Eff: pol. - Grypstra
+ 50361.75       0.0        -0.423 g 05-OCT-96  CL Eff: pol. - Grypstra
+ 50362.0        0.0        -0.429 g 06-OCT-96  CL Eff: pol. - Grypstra
+ 50362.25       0.0        -0.434 g 06-OCT-96  CL Eff: pol. - Grypstra
+ 50362.5        0.0        -0.440 g 06-OCT-96  CL Eff: pol. - Grypstra
+ 50362.75       0.0        -0.445 g 06-OCT-96  CL Eff: pol. - Grypstra
+ 50363.0        0.0        -0.450 g 07-OCT-96  CL Eff: pol. - Grypstra
+ 50363.25       0.0        -0.455 g 07-OCT-96  CL Eff: pol. - Grypstra
+ 50363.5        0.0        -0.460 g 07-OCT-96  CL Eff: pol. - Grypstra
+ 50370.5        0.0        -0.566 g 14-OCT-96  CL Eff: pol. - Grypstra
+ 50370.75       0.0        -0.569 g 14-OCT-96  CL Eff: pol. - Grypstra
+ 50371.0        0.0        -0.571 g 15-OCT-96  CL Eff: pol. - Grypstra
+ 50371.25       0.0        -0.573 g 15-OCT-96  CL Eff: pol. - Grypstra
+ 50371.5        0.0        -0.576 g 15-OCT-96  CL Eff: pol. - Grypstra
+ 50421.5        0.0         0.617 g 04-DEC-96  CL Eff: pol. - Grypstra
+ 50435.25       0.0         1.684 g 18-DEC-96  CL Eff: pol. - Grypstra
+ 50458.5        0.0         0.283 g 10-JAN-97  CL Eff: pol. - Grypstra
+ 50458.75       0.0         0.271 g 10-JAN-97  CL Eff: pol. - Grypstra
+ 50459.0        0.0         0.260 g 11-JAN-97  CL Eff: pol. - Grypstra
+ 50459.25       0.0         0.249 g 11-JAN-97  CL Eff: pol. - Grypstra
+ 50459.5        0.0         0.238 g 11-JAN-97  CL Eff: pol. - Grypstra
+ 50459.75       0.0         0.227 g 11-JAN-97  CL Eff: pol. - Grypstra
+ 50460.0        0.0         0.216 g 12-JAN-97  CL Eff: pol. - Grypstra
+ 50460.25       0.0         0.205 g 12-JAN-97  CL Eff: pol. - Grypstra
+ 50460.5        0.0         0.194 g 12-JAN-97  CL Eff: pol. - Grypstra
+ 50460.75       0.0         0.183 g 12-JAN-97  CL Eff: pol. - Grypstra
+ 50461.0        0.0         0.172 g 13-JAN-97  CL Eff: pol. - Grypstra
+ 50461.25       0.0         0.161 g 13-JAN-97  CL Eff: pol. - Grypstra
+ 50467.0        0.0        -0.062 g 19-JAN-97  CL Eff: pol. - Grypstra
+ 50467.25       0.0        -0.071 g 19-JAN-97  CL Eff: pol. - Grypstra
+ 50467.5        0.0        -0.080 g 19-JAN-97  CL Eff: pol. - Grypstra
+ 50467.75       0.0        -0.088 g 19-JAN-97  CL Eff: pol. - Grypstra
+ 50468.0        0.0        -0.097 g 20-JAN-97  CL Eff: pol. - Grypstra
+ 50468.25       0.0        -0.105 g 20-JAN-97  CL Eff: pol. - Grypstra
+ 50470          0.0        -0.163 g 22-JAN-97  CL Eff: pol. - Grypstra
+ 50526.25       0.0         1.802 g 19-MAR-97  CL Eff: pol. - Grypstra
+ 50526.5        0.0         1.783 g 19-MAR-97  CL Eff: pol. - Grypstra
+ 50526.75       0.0         1.763 g 19-MAR-97  CL Eff: pol. - Grypstra
+ 50527.0        0.0         1.744 g 20-MAR-97  CL Eff: pol. - Grypstra
+ 50527.25       0.0         1.725 g 20-MAR-97  CL Eff: pol. - Grypstra
+ 50547.5        0.0         0.415 g 09-APR-97  CL Eff: pol. - Grypstra
+ 50547.75       0.0         0.402 g 09-APR-97  CL Eff: pol. - Grypstra
+ 50548.0        0.0         0.389 g 10-APR-97  CL Eff: pol. - Grypstra
+ 50548.25       0.0         0.376 g 10-APR-97  CL Eff: pol. - Grypstra
+ 50642.0        0.0         0.637 g 13-JUL-97  CL Eff: pol. - Grypstra
+ 50642.25       0.0         0.651 g 13-JUL-97  CL Eff: pol. - Grypstra
+ 50642.5        0.0         0.666 g 13-JUL-97  CL Eff: pol. - Grypstra
+ 50642.75       0.0         0.680 g 13-JUL-97  CL Eff: pol. - Grypstra
+ 50644.75       0.0         713.5 g 15-JUL-97  CL Eff: pol. - Grypstra
+ 50645.0        0.0         0.774 g 16-JUL-97  CL Eff: pol. - Grypstra
+ 50645.25       0.0         0.759 g 16-JUL-97  CL Eff: pol. - Grypstra
+ 50645.5        0.0         0.744 g 16-JUL-97  CL Eff: pol. - Grypstra
+ 50645.75       0.0         0.728 g 16-JUL-97  CL Eff: pol. - Grypstra
+ 50646.0        0.0         0.713 g 17-JUL-97  CL Eff: pol. - Grypstra
+ 50646.25       0.0         0.698 g 17-JUL-97  CL Eff: pol. - Grypstra
+ 50646.5        0.0         0.683 g 17-JUL-97  CL Eff: pol. - Grypstra
+ 50646.75       0.0         0.668 g 17-JUL-97  CL Eff: pol. - Grypstra
+ 50647.0        0.0         0.653 g 18-JUL-97  CL Eff: pol. - Grypstra
+ 50647.25       0.0         0.638 g 18-JUL-97  CL Eff: pol. - Grypstra
+ 50647.5        0.0         0.624 g 18-JUL-97  CL Eff: pol. - Grypstra
+ 50647.75       0.0         0.609 g 18-JUL-97  CL Eff: pol. - Grypstra
+ 50648.0        0.0         0.594 g 19-JUL-97  CL Eff: pol. - Grypstra
+ 50648.25       0.0         0.580 g 19-JUL-97  CL Eff: pol. - Grypstra
+ 50648.5        0.0         0.565 g 19-JUL-97  CL Eff: pol. - Grypstra
+ 50648.75       0.0         0.551 g 19-JUL-97  CL Eff: pol. - Grypstra
+ 50649.0        0.0         0.537 g 20-JUL-97  CL Eff: pol. - Grypstra
+ 50649.25       0.0         0.523 g 20-JUL-97  CL Eff: pol. - Grypstra
+ 50649.5        0.0         0.509 g 20-JUL-97  CL Eff: pol. - Grypstra
+ 50649.75       0.0         0.495 g 20-JUL-97  CL Eff: pol. - Grypstra
+ 50650.0        0.0         0.481 g 21-JUL-97  CL Eff: pol. - Grypstra
+ 50655.75       0.0         0.182 g 26-JUL-97  CL Eff: pol. - Grypstra
+ 50656.0        0.0         0.171 g 27-JUL-97  CL Eff: pol. - Grypstra
+ 50692.0        0.0        -0.722 g 01-SEP-97  CL Eff: pol. - Grypstra
+ 50692.25       0.0        -0.722 g 01-SEP-97  CL Eff: pol. - Grypstra
+ 50692.5        0.0        -0.722 g 01-SEP-97  CL Eff: pol. - Grypstra
+ 50692.75       0.0        -0.722 g 01-SEP-97  CL Eff: pol. - Grypstra
+ 50693.0        0.0        -0.722 g 02-SEP-97  CL Eff: pol. - Grypstra
+ 50693.25       0.0        -0.722 g 02-SEP-97  CL Eff: pol. - Grypstra
+ 50693.5        0.0        -0.722 g 02-SEP-97  CL Eff: pol. - Grypstra
+ 50693.75       0.0        -0.722 g 02-SEP-97  CL Eff: pol. - Grypstra
+ 50694.0        0.0        -0.722 g 03-SEP-97  CL Eff: pol. - Grypstra
+ 50694.25       0.0        -0.722 g 03-SEP-97  CL Eff: pol. - Grypstra
+ 50734.5        0.0         0.364 g 13-OCT-97  CL Eff: pol. - Grypstra
+ 50734.75       0.0         0.378 g 13-OCT-97  CL Eff: pol. - Grypstra
+ 50735.0        0.0         0.391 g 14-OCT-97  CL Eff: pol. - Grypstra
+ 50735.25       0.0         0.404 g 14-OCT-97  CL Eff: pol. - Grypstra
+ 50757.5        0.0         1.918 g 05-NOV-97  CL Eff: pol. - Grypstra
+ 50757.75       0.0         1.938 g 05-NOV-97  CL Eff: pol. - Grypstra
+ 50758.0        0.0         1.959 g 06-NOV-97  CL Eff: pol. - Grypstra
+ 50758.25       0.0         1.980 g 06-NOV-97  CL Eff: pol. - Grypstra
+ 50795.5        0.0         2.323 g 13-DEC-97  CL Eff: pol. - Grypstra
+ 50795.75       0.0         2.270 g 13-DEC-97  CL Eff: pol. - Grypstra
+ 50796.0        0.0         2.217 g 14-DEC-97  CL Eff: pol. - Grypstra
+ 50796.25       0.0         2.164 g 14-DEC-97  CL Eff: pol. - Grypstra
+ 50796.5        0.0         2.111 g 14-DEC-97  CL Eff: pol. - Grypstra
+ 50796.75       0.0         2.059 g 14-DEC-97  CL Eff: pol. - Grypstra
+ 50797.0        0.0         2.006 g 15-DEC-97  CL Eff: pol. - Grypstra
+ 50797.25       0.0         1.953 g 15-DEC-97  CL Eff: pol. - Grypstra
+ 50797.5        0.0         1.901 g 15-DEC-97  CL Eff: pol. - Grypstra
+ 50797.75       0.0         1.848 g 15-DEC-97  CL Eff: pol. - Grypstra
+ 50798.0        0.0         1.796 g 16-DEC-97  CL Eff: pol. - Grypstra
+ 50798.25       0.0         1.743 g 16-DEC-97  CL Eff: pol. - Grypstra
+ 50798.5        0.0         1.691 g 16-DEC-97  CL Eff: pol. - Grypstra
+ 50798.75       0.0         1.639 g 16-DEC-97  CL Eff: pol. - Grypstra
+ 50799.0        0.0         1.587 g 17-DEC-97  CL Eff: pol. - Grypstra
+ 50799.25       0.0         1.535 g 17-DEC-97  CL Eff: pol. - Grypstra
+ 50799.5        0.0         1.483 g 17-DEC-97  CL Eff: pol. - Grypstra
+ 50799.75       0.0         1.431 g 17-DEC-97  CL Eff: pol. - Grypstra
+ 50800.0        0.0         1.380 g 18-DEC-97  CL Eff: pol. - Grypstra
+ 50800.25       0.0         1.328 g 18-DEC-97  CL Eff: pol. - Grypstra
+ 50800.5        0.0         1.276 g 18-DEC-97  CL Eff: pol. - Grypstra
+ 50800.75       0.0         1.225 g 18-DEC-97  CL Eff: pol. - Grypstra
+ 50801.0        0.0         1.173 g 19-DEC-97  CL Eff: pol. - Grypstra
+ 50801.25       0.0         1.122 g 19-DEC-97  CL Eff: pol. - Grypstra
+ 50801.5        0.0         1.071 g 19-DEC-97  CL Eff: pol. - Grypstra
+ 50801.75       0.0         1.020 g 19-DEC-97  CL Eff: pol. - Grypstra
+ 50802.0        0.0         0.968 g 20-DEC-97  CL Eff: pol. - Grypstra
+ 50802.25       0.0         0.917 g 20-DEC-97  CL Eff: pol. - Grypstra
+ 50802.5        0.0         0.866 g 20-DEC-97  CL Eff: pol. - Grypstra
+ 50802.75       0.0         0.816 g 20-DEC-97  CL Eff: pol. - Grypstra
+ 50803.0        0.0         0.765 g 21-DEC-97  CL Eff: pol. - Grypstra
+ 50803.25       0.0         0.714 g 21-DEC-97  CL Eff: pol. - Grypstra
+ 50803.5        0.0         0.663 g 21-DEC-97  CL Eff: pol. - Grypstra
+ 50803.75       0.0         0.613 g 21-DEC-97  CL Eff: pol. - Grypstra
+ 50804.0        0.0         0.562 g 22-DEC-97  CL Eff: pol. - Grypstra
+ 50804.25       0.0         0.512 g 22-DEC-97  CL Eff: pol. - Grypstra
+ 50804.5        0.0         0.462 g 22-DEC-97  CL Eff: pol. - Grypstra
+ 50804.75       0.0         0.412 g 22-DEC-97  CL Eff: pol. - Grypstra
+ 50805.0        0.0         0.361 g 23-DEC-97  CL Eff: pol. - Grypstra
+ 50805.25       0.0         0.311 g 23-DEC-97  CL Eff: pol. - Grypstra
+ 50805.5        0.0         0.261 g 23-DEC-97  CL Eff: pol. - Grypstra
+ 50842.25       0.0        -5.680 g 29-JAN-98  CL Eff: pol. - Grypstra
+ 50842.5        0.0        -5.719 g 29-JAN-98  CL Eff: pol. - Grypstra
+ 50842.75       0.0        -5.758 g 29-JAN-98  CL Eff: pol. - Grypstra
+ 50843.0        0.0        -5.797 g 30-JAN-98  CL Eff: pol. - Grypstra
+ 50843.25       0.0        -5.836 g 30-JAN-98  CL Eff: pol. - Grypstra
+ 50843.5        0.0        -5.875 g 30-JAN-98  CL Eff: pol. - Grypstra
+ 50846.5        0.0        -6.335 g 02-FEB-98  CL Eff: pol. - Grypstra
+ 50846.75       0.0        -6.373 g 02-FEB-98  CL Eff: pol. - Grypstra
+ 50847.0        0.0        -6.411 g 03-FEB-98  CL Eff: pol. - Grypstra
+ 50847.25       0.0        -6.449 g 03-FEB-98  CL Eff: pol. - Grypstra
+ 50847.5        0.0        -6.487 g 03-FEB-98  CL Eff: pol. - Grypstra
+ 50863.5        0.0        -8.749 g 19-FEB-98  CL Eff: pol. - Grypstra
+ 50863.75       0.0        -8.782 g 19-FEB-98  CL Eff: pol. - Grypstra
+ 50864.0        0.0        -8.815 g 20-FEB-98  CL Eff: pol. - Grypstra
+ 50864.25       0.0        -8.848 g 20-FEB-98  CL Eff: pol. - Grypstra
+ 50864.5        0.0        -8.880 g 20-FEB-98  CL Eff: pol. - Grypstra
+ 50887.5        0.0       -11.582 g 15-MAR-98  CL Eff: pol. - Grypstra
+ 50894.5        0.0       -12.282 g 22-MAR-98  CL Eff: pol. - Grypstra
+ 50894.75       0.0       -12.306 g 22-MAR-98  CL Eff: pol. - Grypstra
+ 50895.0        0.0       -12.330 g 23-MAR-98  CL Eff: pol. - Grypstra
+ 50895.25       0.0       -12.354 g 23-MAR-98  CL Eff: pol. - Grypstra
+ 50895.5        0.0       -12.377 g 23-MAR-98  CL Eff: pol. - Grypstra
+ 50931.5        0.0       -15.032 g 28-APR-98  CL Eff: pol. - Grypstra
+ 50931.75       0.0       -15.046 g 28-APR-98  CL Eff: pol. - Grypstra
+ 50932.0        0.0       -15.059 g 29-APR-98  CL Eff: pol. - Grypstra
+ 50932.25       0.0       -15.072 g 29-APR-98  CL Eff: pol. - Grypstra
+ 50932.5        0.0       -15.085 g 29-APR-98  CL Eff: pol. - Grypstra
+ 50981.5        0.0       -16.213 g 17-JUN-98  CL Eff: pol. - Grypstra
+ 50981.75       0.0       -16.211 g 17-JUN-98  CL Eff: pol. - Grypstra
+ 50982.0        0.0       -16.210 g 18-JUN-98  CL Eff: pol. - Grypstra
+ 50982.25       0.0       -16.208 g 18-JUN-98  CL Eff: pol. - Grypstra
+ 50982.5        0.0       -16.207 g 18-JUN-98  CL Eff: pol. - Grypstra
+ 50985.5        0.0       -16.181 g 21-JUN-98  CL Eff: pol. - Grypstra
+ 50985.75       0.0       -16.179 g 21-JUN-98  CL Eff: pol. - Grypstra
+ 50986.0        0.0       -16.176 g 22-JUN-98  CL Eff: pol. - Grypstra
+ 50986.25       0.0       -16.173 g 22-JUN-98  CL Eff: pol. - Grypstra
+ 50986.5        0.0       -16.171 g 22-JUN-98  CL Eff: pol. - Grypstra
+ 51011.5        0.0       -15.522 g 17-JUL-98  CL Eff: pol. - Grypstra
+ 51011.75       0.0       -15.512 g 17-JUL-98  CL Eff: pol. - Grypstra
+ 51012.0        0.0       -15.502 g 18-JUL-98  CL Eff: pol. - Grypstra
+ 51012.25       0.0       -15.491 g 18-JUL-98  CL Eff: pol. - Grypstra
+ 51012.5        0.0       -15.481 g 18-JUL-98  CL Eff: pol. - Grypstra
+ 51012.75       0.0       -15.470 g 18-JUL-98  CL Eff: pol. - Grypstra
+ 51013.0        0.0       -15.460 g 19-JUL-98  CL Eff: pol. - Grypstra
+ 51013.25       0.0       -15.449 g 19-JUL-98  CL Eff: pol. - Grypstra
+ 51013.5        0.0       -15.439 g 19-JUL-98  CL Eff: pol. - Grypstra
+ 51013.75       0.0       -15.428 g 19-JUL-98  CL Eff: pol. - Grypstra
+ 51014.0        0.0       -15.417 g 20-JUL-98  CL Eff: pol. - Grypstra
+ 51014.25       0.0       -15.406 g 20-JUL-98  CL Eff: pol. - Grypstra
+ 51014.5        0.0       -15.395 g 20-JUL-98  CL Eff: pol. - Grypstra
+ 51023.5        0.0       -14.952 g 29-JUL-98  CL Eff: pol. - Grypstra
+ 51023.75       0.0       -14.938 g 29-JUL-98  CL Eff: pol. - Grypstra
+ 51024.0        0.0       -14.924 g 30-JUL-98  CL Eff: pol. - Grypstra
+ 51024.25       0.0       -14.911 g 30-JUL-98  CL Eff: pol. - Grypstra
+ 51024.5        0.0       -14.897 g 30-JUL-98  CL Eff: pol. - Grypstra
+ 51024.75       0.0       -14.883 g 30-JUL-98  CL Eff: pol. - Grypstra
+ 51025.0        0.0       -14.869 g 31-JUL-98  CL Eff: pol. - Grypstra
+ 51025.25       0.0       -14.855 g 31-JUL-98  CL Eff: pol. - Grypstra
+ 51025.5        0.0       -14.840 g 31-JUL-98  CL Eff: pol. - Grypstra
+ 51028.5        0.0       -14.665 g 03-AUG-98  CL Eff: pol. - Grypstra
+ 51028.75       0.0       -14.650 g 03-AUG-98  CL Eff: pol. - Grypstra
+ 51029.0        0.0       -14.634 g 04-AUG-98  CL Eff: pol. - Grypstra
+ 51029.25       0.0       -14.619 g 04-AUG-98  CL Eff: pol. - Grypstra
+ 51029.5        0.0       -14.604 g 04-AUG-98  CL Eff: pol. - Grypstra
+ 51041.25       0.0       -13.801 g 16-AUG-98  CL Eff: pol. - Grypstra
+ 51041.5        0.0       -13.782 g 16-AUG-98  CL Eff: pol. - Grypstra
+ 51041.75       0.0       -13.763 g 16-AUG-98  CL Eff: pol. - Grypstra
+ 51091.75       0.0        -8.305 g 16-AUG-98  CL Eff: pol. - Grypstra
+ 51123.50       0.0        -3.034 g 06-NOV-98  CL Eff: pol. - Grypstra
+ 51124.00       0.0        -2.946 g 07-NOV-98  CL Eff: pol. - Grypstra
+ 51124.50       0.0        -2.857 g 07-NOV-98  CL Eff: pol. - Grypstra
+ 51125.00       0.0        -2.768 g 08-NOV-98  CL Eff: pol. - Grypstra
+ 51165.50       0.0         4.989 g 18-DEC-98  CL Eff: pol. - Grypstra
+ 51166.00       0.0         4.880 g 19-DEC-98  CL Eff: pol. - Grypstra
+ 51166.50       0.0         4.771 g 19-DEC-98  CL Eff: pol. - Grypstra
+ 51167.00       0.0         4.663 g 20-DEC-98  CL Eff: pol. - Grypstra
+ 51167.50       0.0         4.555 g 20-DEC-98  CL Eff: pol. - Grypstra
+ 51182.50       0.0         1.438 g 04-JAN-99  CL Eff: pol. - Grypstra
+ 51183.00       0.0         1.338 g 05-JAN-99  CL Eff: pol. - Grypstra
+ 51183.50       0.0         1.239 g 05-JAN-99  CL Eff: pol. - Grypstra
+ 51204.50       0.0        -2.692 g 26-JAN-99  CL Eff: pol. - Grypstra
+ 51205.00       0.0        -2.780 g 27-JAN-99  CL Eff: pol. - Grypstra
+ 51205.50       0.0        -2.867 g 27-JAN-99  CL Eff: pol. - Grypstra
+ 51500.00       0.0       -30.000 g                                     
+ 51900.00       0.0       -30.000 g         
+  
