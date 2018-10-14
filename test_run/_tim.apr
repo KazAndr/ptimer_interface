@@ -1,0 +1,70 @@
+  PTIMER (v1.00)  14-Oct-2018
+  Pulsar  PSR 1133+16  
+
+--------------------------------------------------------------------------------
+......... ASSUMED Pulsar parameters:
+ ** SPIN PARAMETERS:
+ Alpha(2000) : 11:36:03.2477000s
+ Delta(2000) : 15:51:04.4800000"
+ Alpha-Motion:         -74.00000     mas/yr
+ Delta-Motion:          368.1000     mas/yr
+ P           :  1.18791306593636     s
+ dP/dt       : 3.733837242418856E-15
+ d2P/dt2     :          -1.20422E-27 s-2
+ MJD(P)      :     46407.0000000    
+ DM          :        4.84066000     pc cm-3
+ Distance    :        357.142857     pc
+        f0   :   8.4181244290950000D-01 1/s
+        f1dot:      -2.645977000000D-15 1/s2
+        f2dot:       8.700000000000D-28 1/s3
+--------------------------------------------------------------------------------
+ Configuration file               >ptimer.cfg                                                                      
+ Leap second   file               >F:/YandexDisk/3.Programing/work/project_pulsar/vizov/ptimer_interface/leap.sec  
+ Observatory data (see _site.dat) >F:/YandexDisk/3.Programing/work/project_pulsar/vizov/ptimer_interface/obsys.dat 
+ Free format input data from      >1133.tpo                                                                        
+ TOA data file                    >1133.tim                                                                        
+ EOP from IERS data               >F:/YandexDisk/3.Programing/work/project_pulsar/vizov/ptimer_interface/eop.dat   
+ JPL Ephemerides DE200/LE200      >F:/YandexDisk/3.Programing/work/project_pulsar/vizov/ptimer_interface/de405.bin 
+ Time ephemerides Fairhead L.& Bretagnon P.1990
+
+--------------------------------------------------------------------------------
+  Time Beg.=15:51:36
+
+ :Number of TOAs :   327
+ :First TOA      :14. 1.2017(JD= 2457767.5)
+ :Last TOA       :30. 6.2018(JD= 2458299.5)
+
+  Median TOA uncertainty    41.477 mcs
+
+  No parameters fitted
+ 0 sig=    5585.432 us
+
+  Time End.=15:51:36
+  Total Time=     0 min.   .000000 sec.
+
+--------------------------------------------------------------------------------
+......... ADJUSTED Pulsar's parameters:
+ ** Spin parameters:
+ Const       :        .00000000    +/-  .0    s
+ Alpha       : 11:36:03.2477000         .0    s
+ Delta       : 15:51:04.4800000         .0    " 
+ M-Alpha     : -74.000                  .0     mas/yr
+ M-Delta     :  368.10                  .0     mas/yr
+ P           :  1.18791306593636        .0     s
+ dP/dt       : 3.733837242418856E-15    .0    
+ d2P/dt2     :-1.204217258811945E-27    .0     s-1
+ MJD(P)      :     46407.0000000    
+ DM          :        4.84066000       .0     pc cm-3
+ Parallax    :            2.8000       .000     mas
+ =Distance   :           357.143     pc (    357.    ...    357.     pc)
+        f0   :   8.4181244290950000D-01  0.0000000000000000D+00 1/s
+        f1dot:      -2.645977000000D-15      0.000000000000D+00 1/s2
+        f2dot:       8.700000000000D-28      0.000000000000D+00 1/s3
+
+--------------------------------------------------------------------------------
+......... DEDUCED Pulsar's parameters:
+ Char.age        tau= 5.041E+06 yrs
+ Break-down index n=   -101.    
+
+
+  File _res.out:(Date)vs(Residuals TOA)
