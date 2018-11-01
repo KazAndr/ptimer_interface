@@ -18,22 +18,23 @@ import sys
 from PyQt5.QtWidgets import (QMainWindow, QApplication, QLabel, QRadioButton,
                              QVBoxLayout, QFrame, QWidget, QGridLayout,
                              QCheckBox, QPushButton, QFileDialog, QTextEdit,
-                             QSizePolicy)
+                             QSizePolicy, QDialog, QMessageBox)
 from PyQt5.QtCore import Qt, QRect
 
 
 class ShowParam(QWidget):
 
-    def __init__(self, title, file, parent=None):
+    def __init__(self, file, parent=None):
         super(ShowParam, self).__init__()
+        #super().__init__(titlel)
 
-        self.param_label = QTextEdit(self)
-        self.title = title
+        self.param_label = QLabel(self)
+        self.title = 'Параметры по умолчанию'
         self.file = file
-        self.left = 100
-        self.top = 100
-        self.width = 435
-        self.height = 480
+        self.left = 20 + 300
+        self.top = 30
+        self.width = 300
+        self.height = 370
         self.initUI()
 
     def initUI(self):
@@ -43,14 +44,71 @@ class ShowParam(QWidget):
         with open(self.file, 'r') as f:
             text = f.readlines()
 
-        self.param_label.setText(str(text))
+
+        self.param_label.setText(''.join(text))
         self.param_label.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
         self.param_label.setAlignment(Qt.AlignLeft)
-        self.param_label.setGeometry(QRect(20, 20, 400, 480))
+        #self.param_label.setGeometry(QRect(20, 20, 400, 480))
 
         workstate = QVBoxLayout()
-        workstate.addWidget(self.param_label,
-                                          0, Qt.AlignTop | Qt.AlignCenter)
+        workstate.addWidget(self.param_label, 0, Qt.AlignTop | Qt.AlignLeft)
+        self.setLayout(workstate)
+
+class WarningBox(QMessageBox):
+
+    def __init__(self, title, text):
+        super().__init__()
+        self.title = title
+        self.text = text
+        self.initUI()
+
+    def initUI(self):
+        self.setIcon(QMessageBox.Warning)
+        self.setWindowTitle('Предупреждение!')
+        self.setText(self.title)
+        self.setInformativeText(self.text)
+        self.setStandardButtons(
+                QMessageBox.Ok)
+        self.setDefaultButton(QMessageBox.Ok)
+
+class QuestionBox(QDialog):
+
+    def __init__(self, title, text):
+        super().__init__()
+        self.title = title
+        self.text = text
+        self.initUI()
+
+    def initUI(self):
+        self.setWindowTitle('Вопрос!')
+        self.label = QLabel(self.text)
+        self.plot_resid = QCheckBox('ОУ МПИ')
+        self.plot_pcsh = QCheckBox('Ряд ПВШ')
+        self.yesBut = QPushButton('Да')
+        self.noBut = QPushButton('Нет')
+
+        '''
+        Подключение функций к кнопкам
+        '''
+        self.noBut.clicked.connect(self.close)
+        self.yesBut.clicked.connect(self.ploting)
+
+        hbox = QGridLayout()
+        # addWidget(QWidget, row, column, rows, columns)
+        hbox.addWidget(self.label, 0, 0, 1, 2)
+        hbox.addWidget(self.plot_resid, 2, 0)
+        hbox.addWidget(self.plot_pcsh, 2, 1)
+        hbox.addWidget(self.yesBut, 3, 0)
+        hbox.addWidget(self.noBut, 3, 2)
+        self.setLayout(hbox)
+
+    def ploting(self):
+        if not self.plot_pcsh.isChecked() and not self.plot_pcsh.isChecked():
+            msg = QuestionBox('Данные для визуализации готовы',
+                              'Необходимо выбрать хотя бы один вариант данных для отрисовки')
+            msg.exec_()
+        else:
+            pass
 
 class App(QMainWindow):
 
@@ -232,9 +290,21 @@ class App(QMainWindow):
 
         self.statusBar().showMessage(
                 "Выполняется команда " + cmd)
+        os.system(cmd)
 
         if not self.opt_param.isChecked():
-            ShowParam('Параметры по умолчанию', self.filePar).show()
+            self.dialog = ShowParam(self.filePar)
+            self.dialog.show()
+
+        msg = QuestionBox('Данные для визуализации готовы',
+                                  'Провести отрисовку графиков?')
+        msg.exec_()
+
+
+        msg = WarningBox(
+                    'Данные успешно обработаны',
+                    '')
+        msg.exec_()
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

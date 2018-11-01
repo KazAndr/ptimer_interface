@@ -1,4 +1,4 @@
-  PTIMER (v1.00)  14-Oct-2018
+  PTIMER (v1.00)   1-Nov-2018
   Pulsar  PSR 1133+16  
 
 --------------------------------------------------------------------------------
@@ -18,17 +18,17 @@
         f1dot:      -2.645977000000D-15 1/s2
         f2dot:       8.700000000000D-28 1/s3
 --------------------------------------------------------------------------------
- Configuration file               >ptimer.cfg                                                                      
- Leap second   file               >F:/YandexDisk/3.Programing/work/project_pulsar/vizov/ptimer_interface/leap.sec  
- Observatory data (see _site.dat) >F:/YandexDisk/3.Programing/work/project_pulsar/vizov/ptimer_interface/obsys.dat 
- Free format input data from      >1133.tpo                                                                        
+ Configuration file               >F:/ptimer_interface/test_run/ptimer.cfg                                         
+ Leap second   file               >F:/ptimer_interface/leap.sec                                                    
+ Observatory data (see _site.dat) >F:/ptimer_interface/obsys.dat                                                   
+ Free format input data from      >F:/ptimer_interface/test_run/1133.tpo                                           
  TOA data file                    >1133.tim                                                                        
- EOP from IERS data               >F:/YandexDisk/3.Programing/work/project_pulsar/vizov/ptimer_interface/eop.dat   
- JPL Ephemerides DE200/LE200      >F:/YandexDisk/3.Programing/work/project_pulsar/vizov/ptimer_interface/de405.bin 
+ EOP from IERS data               >F:/ptimer_interface/eop.dat                                                     
+ JPL Ephemerides DE200/LE200      >F:/ptimer_interface/de405.bin                                                   
  Time ephemerides Fairhead L.& Bretagnon P.1990
 
 --------------------------------------------------------------------------------
-  Time Beg.=15:51:36
+  Time Beg.=22:20:55
 
  :Number of TOAs :   327
  :First TOA      :14. 1.2017(JD= 2457767.5)
@@ -37,9 +37,9 @@
   Median TOA uncertainty    41.477 mcs
 
   No parameters fitted
- 0 sig=    5585.432 us
+ 0 sig=  525579.934 us
 
-  Time End.=15:51:36
+  Time End.=22:20:55
   Total Time=     0 min.   .000000 sec.
 
 --------------------------------------------------------------------------------
