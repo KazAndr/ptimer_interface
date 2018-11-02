@@ -18,21 +18,28 @@ import sys
 from PyQt5.QtWidgets import (QMainWindow, QApplication, QLabel, QRadioButton,
                              QVBoxLayout, QFrame, QWidget, QGridLayout,
                              QCheckBox, QPushButton, QFileDialog, QTextEdit,
-                             QSizePolicy, QDialog, QMessageBox)
+                             QSizePolicy, QDialog, QMessageBox, QDesktopWidget)
 from PyQt5.QtCore import Qt, QRect
 
+from numpy import genfromtxt
+
+import matplotlib
+matplotlib.use('Qt5Agg')
+
+from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+from matplotlib.figure import Figure
 
 class ShowParam(QWidget):
 
-    def __init__(self, file, parent=None):
+    def __init__(self, title, file, pos, parent=None):
         super(ShowParam, self).__init__()
         #super().__init__(titlel)
 
         self.param_label = QLabel(self)
-        self.title = 'Параметры по умолчанию'
+        self.title = title
         self.file = file
         self.left = 20 + 300
-        self.top = 30
+        self.top = 30 + pos
         self.width = 300
         self.height = 370
         self.initUI()
@@ -71,6 +78,80 @@ class WarningBox(QMessageBox):
                 QMessageBox.Ok)
         self.setDefaultButton(QMessageBox.Ok)
 
+class drawPlot(QWidget):
+
+    def __init__(
+            self, data, up_title, OX_lable, OY_lable, idx_geom):
+        super().__init__()
+        self.title = up_title
+        self.idx_geom = idx_geom
+        self.left, self.top, self.width, self.height = self.get_geom()
+        self.data = data
+        self.up_title = up_title
+        self.OX_lable = OX_lable
+        self.OY_lable = OY_lable
+
+        self.initUI()
+
+    def initUI(self):
+        self.setWindowTitle(self.title)
+        self.setGeometry(self.left, self.top, self.width, self.height)
+
+        m = PlotCanvas(
+                self.data, self.up_title, self.OX_lable, self.OY_lable)
+
+        hbox = QGridLayout()
+        # addWidget(QWidget, row, column, rows, columns)
+        hbox.addWidget(m, 0, 0)
+        self.setLayout(hbox)
+
+    def get_geom(self):
+        resolution = QDesktopWidget().screenGeometry()
+        height = int(resolution.height()/3)
+        width = int(height*1.5)
+        if self.idx_geom == 1:
+            left = resolution.width() - width
+            top = 20
+        elif self.idx_geom == 2:
+            left = resolution.width() - 2*width
+            top = 20
+
+        return left, top, width, height
+
+class PlotCanvas(FigureCanvas):
+
+    def __init__(self, data, up_title, OX_lable, OY_lable):
+
+        width=4
+        height=3
+        dpi=100
+        self.data = data
+        self.up_title = up_title
+        self.OX_lable = OX_lable
+        self.OY_lable = OY_lable
+        fig = Figure(figsize=(width, height), dpi=dpi)
+        #self.axes = fig.add_subplot(111)
+
+        FigureCanvas.__init__(self, fig)
+        self.setParent(None)
+
+        FigureCanvas.setSizePolicy(self,
+                QSizePolicy.Expanding,
+                QSizePolicy.Expanding)
+        FigureCanvas.updateGeometry(self)
+        self.plot()
+
+
+    def plot(self):
+        ax = self.figure.add_subplot(111)
+        ax.errorbar(self.data[0], self.data[1], yerr=self.data[2],
+                    fmt='o', markersize=0.1)
+        ax.set_title(self.up_title, fontsize=10)
+        ax.set_xlabel(self.OX_lable, fontsize=10)
+        ax.set_ylabel(self.OY_lable, fontsize=10)
+        ax.grid()
+        self.draw()
+
 class QuestionBox(QDialog):
 
     def __init__(self, title, text):
@@ -103,12 +184,26 @@ class QuestionBox(QDialog):
         self.setLayout(hbox)
 
     def ploting(self):
-        if not self.plot_pcsh.isChecked() and not self.plot_pcsh.isChecked():
-            msg = QuestionBox('Данные для визуализации готовы',
+        self.close()
+        if not self.plot_resid.isChecked() and not self.plot_pcsh.isChecked():
+            self.msg = QuestionBox('Данные для визуализации готовы',
                               'Необходимо выбрать хотя бы один вариант данных для отрисовки')
-            msg.exec_()
+            self.msg.exec_()
         else:
-            pass
+            if self.plot_resid.isChecked():
+                data = genfromtxt('_res.out').T
+                self.draw_resid = drawPlot(
+                            data, 'Остаточные уклонения',
+                            'Дата, MJD', 'ОУ МПИ, мкс', 1)
+                self.draw_resid.show()
+            if self.plot_pcsh.isChecked():
+                data = genfromtxt('_scl.res').T
+                self.draw_pcsh = drawPlot(
+                            data,
+                            'Ряд ОУ МПИ для пульсарной шкалы',
+                            'Дни от начальной даты',
+                            'Отклонения от опорной шкалы, секунд', 2)
+                self.draw_pcsh.show()
 
 class App(QMainWindow):
 
@@ -270,36 +365,53 @@ class App(QMainWindow):
                     '', 'Все файлы (*)',
                     options=options)
 
+        if self.workstate_chron.isChecked():
+            if self.opt_param.isChecked():
+                cmd += '-c '
+            if self.opt_aver.isChecked():
+                cmd += '-r '
+            if self.opt_inp.isChecked():
+                cmd += '-i '
+            if self.opt_apr.isChecked():
+                cmd += '-m '
+            if self.opt_cfg.isChecked():
+                self.fileConfig, _ = QFileDialog.getOpenFileName(
+                        self,'Выберите конфигурационный файл',
+                        '', 'Файл конфигурации (*.cfg);; Все файлы (*)',
+                        options=options)
+                cmd += '-d' + self.fileConfig + ' '
+            cmd += self.filePar
 
-        if self.opt_param.isChecked():
-            cmd += '-c '
-        if self.opt_aver.isChecked():
-            cmd += '-r '
-        if self.opt_inp.isChecked():
-            cmd += '-i '
-        if self.opt_apr.isChecked():
-            cmd += '-m '
-        if self.opt_cfg.isChecked():
-            self.fileConfig, _ = QFileDialog.getOpenFileName(
-                    self,'Выберите конфигурационный файл',
-                    '', 'Файл конфигурации (*.cfg);; Все файлы (*)',
-                    options=options)
-            cmd += '-d' + self.fileConfig + ' '
+            self.statusBar().showMessage(
+                    "Выполняется команда " + cmd)
+            os.system(cmd)
 
-        cmd += self.filePar
+            if not self.opt_param.isChecked():
+                self.dialog_old = ShowParam(
+                        'Параметры по умолчанию', self.filePar, 0)
+                self.dialog_old.show()
 
-        self.statusBar().showMessage(
-                "Выполняется команда " + cmd)
-        os.system(cmd)
+            if self.opt_inp.isChecked():
+                self.dialog_new = ShowParam(
+                        'Уточненные параметры', '_tim.inp', 370)
+                self.dialog_new.show()
 
-        if not self.opt_param.isChecked():
-            self.dialog = ShowParam(self.filePar)
-            self.dialog.show()
-
-        msg = QuestionBox('Данные для визуализации готовы',
+            self.msg = QuestionBox('Данные для визуализации готовы',
                                   'Провести отрисовку графиков?')
-        msg.exec_()
+            self.msg.exec_()
 
+        else:
+            if self.opt_cfg.isChecked():
+                self.fileConfig, _ = QFileDialog.getOpenFileName(
+                        self,'Выберите конфигурационный файл',
+                        '', 'Файл конфигурации (*.cfg);; Все файлы (*)',
+                        options=options)
+            cmd +=  '-f '
+            cmd += '-d' + self.fileConfig + ' '
+            cmd += self.filePar
+            self.statusBar().showMessage(
+                    "Выполняется команда " + cmd)
+            os.system(cmd)
 
         msg = WarningBox(
                     'Данные успешно обработаны',
