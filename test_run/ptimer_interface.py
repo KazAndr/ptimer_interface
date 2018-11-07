@@ -12,28 +12,26 @@ cmd = "ptimer.exe 1133.tpo -i -m -d ptimer.cfg"
 
 os.system(cmd)
 """
+
 import os
 import sys
+import matplotlib
+matplotlib.use('Qt5Agg')
 
 from PyQt5.QtWidgets import (QMainWindow, QApplication, QLabel, QRadioButton,
                              QVBoxLayout, QFrame, QWidget, QGridLayout,
                              QCheckBox, QPushButton, QFileDialog, QSizePolicy,
                              QDialog, QMessageBox, QDesktopWidget)
 from PyQt5.QtCore import Qt
-
 from numpy import genfromtxt
-
-import matplotlib
-matplotlib.use('Qt5Agg')
-
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
+
 
 class ShowParam(QWidget):
 
     def __init__(self, title, file, pos, parent=None):
         super(ShowParam, self).__init__()
-        #super().__init__(titlel)
 
         self.param_label = QLabel(self)
         self.title = title
@@ -51,15 +49,15 @@ class ShowParam(QWidget):
         with open(self.file, 'r') as f:
             text = f.readlines()
 
-
         self.param_label.setText(''.join(text))
-        self.param_label.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+        self.param_label.setSizePolicy(
+                QSizePolicy.Expanding,
+                QSizePolicy.Expanding)
         self.param_label.setAlignment(Qt.AlignLeft)
-        #self.param_label.setGeometry(QRect(20, 20, 400, 480))
-
         workstate = QVBoxLayout()
         workstate.addWidget(self.param_label, 0, Qt.AlignTop | Qt.AlignLeft)
         self.setLayout(workstate)
+
 
 class WarningBox(QMessageBox):
 
@@ -78,6 +76,7 @@ class WarningBox(QMessageBox):
                 QMessageBox.Ok)
         self.setDefaultButton(QMessageBox.Ok)
 
+
 class drawPlot(QWidget):
 
     def __init__(
@@ -90,7 +89,6 @@ class drawPlot(QWidget):
         self.up_title = up_title
         self.OX_lable = OX_lable
         self.OY_lable = OY_lable
-
         self.initUI()
 
     def initUI(self):
@@ -118,29 +116,30 @@ class drawPlot(QWidget):
 
         return left, top, width, height
 
+
 class PlotCanvas(FigureCanvas):
 
     def __init__(self, data, up_title, OX_lable, OY_lable):
 
-        width=4
-        height=3
-        dpi=100
+        width = 4
+        height = 3
+        dpi = 100
         self.data = data
         self.up_title = up_title
         self.OX_lable = OX_lable
         self.OY_lable = OY_lable
         fig = Figure(figsize=(width, height), dpi=dpi)
-        #self.axes = fig.add_subplot(111)
 
         FigureCanvas.__init__(self, fig)
         self.setParent(None)
 
-        FigureCanvas.setSizePolicy(self,
+        FigureCanvas.setSizePolicy(
+                self,
                 QSizePolicy.Expanding,
-                QSizePolicy.Expanding)
+                QSizePolicy.Expanding
+                )
         FigureCanvas.updateGeometry(self)
         self.plot()
-
 
     def plot(self):
         ax = self.figure.add_subplot(111)
@@ -152,6 +151,7 @@ class PlotCanvas(FigureCanvas):
         ax.set_ylabel(self.OY_lable, fontsize=10)
         ax.grid()
         self.draw()
+
 
 class QuestionBox(QDialog):
 
@@ -187,8 +187,10 @@ class QuestionBox(QDialog):
     def ploting(self):
         self.close()
         if not self.plot_resid.isChecked() and not self.plot_pcsh.isChecked():
-            self.msg = QuestionBox('Данные для визуализации готовы',
-                              'Необходимо выбрать хотя бы один вариант данных для отрисовки')
+            self.msg = QuestionBox(
+                    'Данные для визуализации готовы',
+                    'Необходимо выбрать хотя бы один вариант данных для отрисовки'
+                    )
             self.msg.exec_()
         else:
             if self.plot_resid.isChecked():
@@ -206,6 +208,7 @@ class QuestionBox(QDialog):
                             'Отклонения от опорной шкалы, секунд', 2)
                 self.draw_pcsh.show()
 
+
 class App(QMainWindow):
 
     def __init__(self):
@@ -218,16 +221,12 @@ class App(QMainWindow):
         self.out_dir = os.getcwd() + os.sep
         self.initUI()
 
-
     def initUI(self):
-
         '''
         Применение основных параметров окна
         '''
         self.setWindowTitle(self.title)
         self.setGeometry(self.left, self.top, self.width, self.height)
-
-
         '''
         Инициализация первой рабочей области с выбором режима работы
         '''
@@ -256,33 +255,57 @@ class App(QMainWindow):
         Компановка объектов первой рабочей области
         '''
         layout_workstate = QVBoxLayout()
-        #layout.setContentsMargins(5, 5, 5, 5)
-        layout_workstate.addWidget(self.label_workstate,
-                                          0, Qt.AlignTop | Qt.AlignCenter)
-        layout_workstate.addWidget(self.workstate_chron,
-                                          0, Qt.AlignTop | Qt.AlignLeft)
-        layout_workstate.addWidget(self.workstate_toa,
-                                          0, Qt.AlignTop | Qt.AlignLeft)
+        # layout.setContentsMargins(5, 5, 5, 5)
+        layout_workstate.addWidget(
+                self.label_workstate,
+                0,
+                Qt.AlignTop | Qt.AlignCenter
+                )
+        layout_workstate.addWidget(
+                self.workstate_chron,
+                0,
+                Qt.AlignTop | Qt.AlignLeft
+                )
+        layout_workstate.addWidget(
+                self.workstate_toa,
+                0,
+                Qt.AlignTop | Qt.AlignLeft)
 
         '''
         Компановка объектов второй рабочей области
         '''
         layout_option = QVBoxLayout()
-        #layout.setContentsMargins(5, 5, 5, 5)
-        layout_option.addWidget(self.label_option,
-                                          0, Qt.AlignTop | Qt.AlignCenter)
-        layout_option.addWidget(self.opt_param,
-                                          0, Qt.AlignTop | Qt.AlignLeft)
-        layout_option.addWidget(self.opt_aver,
-                                          0, Qt.AlignTop | Qt.AlignLeft)
-        layout_option.addWidget(self.opt_inp,
-                                          0, Qt.AlignTop | Qt.AlignLeft)
-        layout_option.addWidget(self.opt_apr,
-                                          0, Qt.AlignTop | Qt.AlignLeft)
-        layout_option.addWidget(self.opt_cfg,
-                                          0, Qt.AlignTop | Qt.AlignLeft)
-
-
+        # layout.setContentsMargins(5, 5, 5, 5)
+        layout_option.addWidget(
+                self.label_option,
+                0,
+                Qt.AlignTop | Qt.AlignCenter
+                )
+        layout_option.addWidget(
+                self.opt_param,
+                0,
+                Qt.AlignTop | Qt.AlignLeft
+                )
+        layout_option.addWidget(
+                self.opt_aver,
+                0,
+                Qt.AlignTop | Qt.AlignLeft
+                )
+        layout_option.addWidget(
+                self.opt_inp,
+                0,
+                Qt.AlignTop | Qt.AlignLeft
+                )
+        layout_option.addWidget(
+                self.opt_apr,
+                0,
+                Qt.AlignTop | Qt.AlignLeft
+                )
+        layout_option.addWidget(
+                self.opt_cfg,
+                0,
+                Qt.AlignTop | Qt.AlignLeft
+                )
 
         '''
         Кнопка, запускающая обработку
@@ -300,7 +323,7 @@ class App(QMainWindow):
         '''
         Подключение функций к кнопкам
         '''
-        self.workstate_chron.toggled.connect(lambda:self.check_active())
+        self.workstate_chron.toggled.connect(lambda: self.check_active())
         self.procces_button.clicked.connect(self.processing)
         '''
         Инициализация фрейма для первой рабочей области
@@ -321,7 +344,6 @@ class App(QMainWindow):
         frame_option.setLayout(layout_option)
         frame_option.setStyleSheet(
                 'QFrame#frame_option {border:1px solid black;}')
-
 
         '''
         Упаковка фреймов
@@ -359,10 +381,10 @@ class App(QMainWindow):
         cmd = 'ptimer.exe '
 
         options = QFileDialog.Options()
-        #options |= QFileDialog.DontUseNativeDialog
+        # options |= QFileDialog.DontUseNativeDialog
 
         self.filePar, _ = QFileDialog.getOpenFileName(
-                    self,'Выберите файл параметров',
+                    self, 'Выберите файл параметров',
                     '', 'Все файлы (*)',
                     options=options)
 
@@ -377,7 +399,7 @@ class App(QMainWindow):
                 cmd += '-m '
             if self.opt_cfg.isChecked():
                 self.fileConfig, _ = QFileDialog.getOpenFileName(
-                        self,'Выберите конфигурационный файл',
+                        self, 'Выберите конфигурационный файл',
                         '', 'Файл конфигурации (*.cfg);; Все файлы (*)',
                         options=options)
                 cmd += '-d' + self.fileConfig + ' '
@@ -397,21 +419,24 @@ class App(QMainWindow):
                         'Уточненные параметры', '_tim.inp', 370)
                 self.dialog_new.show()
 
-            self.msg = QuestionBox('Данные для визуализации готовы',
-                                  'Провести отрисовку графиков?')
+            self.msg = QuestionBox(
+                    'Данные для визуализации готовы',
+                    'Провести отрисовку графиков?'
+                    )
             self.msg.exec_()
 
         else:
             if self.opt_cfg.isChecked():
                 self.fileConfig, _ = QFileDialog.getOpenFileName(
-                        self,'Выберите конфигурационный файл',
+                        self, 'Выберите конфигурационный файл',
                         '', 'Файл конфигурации (*.cfg);; Все файлы (*)',
                         options=options)
+                self.fileConfig = '-d' + self.fileConfig
             else:
                 self.fileConfig = ''
 
-            cmd +=  '-f '
-            cmd += '-d' + self.fileConfig + ' '
+            cmd += '-f '
+            cmd += self.fileConfig + ' '
             cmd += self.filePar
             self.statusBar().showMessage(
                     "Выполняется команда " + cmd)
@@ -421,6 +446,7 @@ class App(QMainWindow):
                     'Данные успешно обработаны',
                     '')
         msg.exec_()
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
