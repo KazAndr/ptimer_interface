@@ -5,27 +5,19 @@ Created on Fri Oct 12 18:57:43 2018
 @author: Kazantsev Andrey
 """
 
-"""
-
-
-cmd = "ptimer.exe 1133.tpo -i -m -d ptimer.cfg"
-
-os.system(cmd)
-"""
-
 import os
 import sys
 import matplotlib
-matplotlib.use('Qt5Agg')
-
 from PyQt5.QtWidgets import (QMainWindow, QApplication, QLabel, QRadioButton,
                              QVBoxLayout, QFrame, QWidget, QGridLayout,
                              QCheckBox, QPushButton, QFileDialog, QSizePolicy,
                              QDialog, QMessageBox, QDesktopWidget)
 from PyQt5.QtCore import Qt
 from numpy import genfromtxt
-from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+from matplotlib.backends.backend_qt5agg import FCQTAgg as FC
 from matplotlib.figure import Figure
+
+matplotlib.use('Qt5Agg')
 
 
 class ShowParam(QWidget):
@@ -117,7 +109,7 @@ class drawPlot(QWidget):
         return left, top, width, height
 
 
-class PlotCanvas(FigureCanvas):
+class PlotCanvas(FC):
 
     def __init__(self, data, up_title, OX_lable, OY_lable):
 
@@ -130,15 +122,15 @@ class PlotCanvas(FigureCanvas):
         self.OY_lable = OY_lable
         fig = Figure(figsize=(width, height), dpi=dpi)
 
-        FigureCanvas.__init__(self, fig)
+        FC.__init__(self, fig)
         self.setParent(None)
 
-        FigureCanvas.setSizePolicy(
+        FC.setSizePolicy(
                 self,
                 QSizePolicy.Expanding,
                 QSizePolicy.Expanding
                 )
-        FigureCanvas.updateGeometry(self)
+        FC.updateGeometry(self)
         self.plot()
 
     def plot(self):
